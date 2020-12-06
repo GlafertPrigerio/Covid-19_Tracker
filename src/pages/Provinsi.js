@@ -16,8 +16,9 @@ const Provinsi = () => {
 
     return(
 
-      <div >
+      <div className="container">
       <h1>Kasus Covid-19 per Provinsi</h1>
+    <center>
         <table border ="1">
           <tr>
             <th>No</th>
@@ -38,8 +39,8 @@ const Provinsi = () => {
             )
         })}
           </table>
+      </center>
       </div> 
-    
     )
 }
 export default Provinsi;

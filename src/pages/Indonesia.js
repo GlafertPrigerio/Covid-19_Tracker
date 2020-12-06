@@ -23,7 +23,7 @@ const Indonesia = () => {
   
    return (
   
-    <div>
+    <div className ="container">
       <h1>Kasus Covid-19 di Indonesia</h1>
       <div className= "cont">
         <h1 className="positif">
