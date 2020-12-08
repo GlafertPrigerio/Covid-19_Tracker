@@ -20,23 +20,29 @@ const Global = () => {
   
    return (
      <center>
-       <div className="container" >Kasus Covid-19 keseluruhan Global</div>
+       <div className="background" >
+          
+       
        <div className= "cont">
         <h1 className = "positif"> 
-        <p>Positif</p>
+        <p>Infected</p>
         <NumberFormat value={confirmed} thousandSeparator={true} displayType={'text'}/> 
         </h1>
        
         <h1 className="meninggal">
-          <p>Meninggal</p>
+          <p>Death</p>
           <NumberFormat value={deaths} thousandSeparator={true} displayType={'text'}/>
         </h1>
         <h1 className="sembuh">
-          <p>sembuh</p>
+          <p>Recovered</p>
           <NumberFormat value={recovered} thousandSeparator={true} displayType={'text'}/>
         </h1>  
+         
       </div>
-
+      </div>
+      <div className="background" >
+      <h1>Covid-19 Case Global</h1>   
+      </div> 
       </center>
   
     )

@@ -22,24 +22,28 @@ const Indonesia = () => {
    }, []);
   
    return (
-  
-    <div className ="container">
-      <h1>Kasus Covid-19 di Indonesia</h1>
+  <center>
+    <div className ="background">
       <div className= "cont">
         <h1 className="positif">
-          <p>Positif</p>
+          <p>Infected</p>
           <NumberFormat value={jumlahKasus} thousandSeparator={true} displayType={'text'}/>
         </h1>
         <h1 className="meninggal">
-          <p>Meninggal</p>
+          <p>Death</p>
           <NumberFormat value={meninggal} thousandSeparator={true} displayType={'text'}/>
         </h1>
         <h1 className="sembuh">
-          <p>sembuh</p>
+          <p>Recovered</p>
           <NumberFormat value={sembuh} thousandSeparator={true} displayType={'text'}/>
         </h1>  
+        </div>
       </div>
-    </div>
+      <div className="background">
+      <h1>COVID-19 Case in INDONESIA</h1>
+      </div> 
+      </center>
+    
   
   )
   

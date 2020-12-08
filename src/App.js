@@ -10,9 +10,12 @@ const App = () =>{
     return (
         <header className="warna2">
         <Router>
-            <div>
+            <div className="background">
+                <center>
+                    <b>
                 <nav>
                     <ul>
+                        Covid-19 Tracker
                         <li>
                             <Link to="/Global">
                                 Global
@@ -25,12 +28,14 @@ const App = () =>{
                         </li>
                         <li>
                             <Link to="/Provinsi">
-                                Provinsi
+                                Provinsi di Indonesia
                             </Link>
                         </li>
   
                     </ul>
                 </nav>
+                </b>
+                </center>
             </div>
             <Switch>
                 <Route path="/Indonesia">
