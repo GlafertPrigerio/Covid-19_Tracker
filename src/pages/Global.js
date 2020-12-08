@@ -37,11 +37,12 @@ const Global = () => {
           <p>Recovered</p>
           <NumberFormat value={recovered} thousandSeparator={true} displayType={'text'}/>
         </h1>  
+      
          
       </div>
       </div>
       <div className="background" >
-      <h1>Covid-19 Case Global</h1>   
+      <h1>COVID-19 Case Global</h1>   
       </div> 
       </center>
   
